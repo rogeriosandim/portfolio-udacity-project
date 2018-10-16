@@ -6,8 +6,12 @@ body {
 	text-align: center;
 }
 
+.project-title, .description {
+	text-transform: uppercase;
+}
+
 .header {
-	border-bottom: 4px solid #cecece;
+	border-bottom: 4px solid lightgray;
 	margin: 20px 0 20px;
 }
 
@@ -16,7 +20,7 @@ body {
 	max-width: 70px
 }
 
-.logo img {
+.logo-image {
 	max-width: 70px
 }
 
@@ -25,24 +29,40 @@ body {
 	color: #2d3c49;
 }
 
-main img {
+.large-image, .small-image {
+	width: 100%;
+}
+.featured-work {
 	width: 100%;
 }
 
-footer h2 {
+.featured-work h2 {
 	text-align: left;
 	font-size: 2em;
 	font-weight: 400;
 	color: #7d97ad;
 }
 
-footer a {
+.featured-work a {
 	color: #2d3c49;
 	text-decoration: none;
 }
 
-article img {
-	width: 100%;
+.image-box {
+	padding: 0px 8px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  padding: 2px;
+  background-color: black;
+  color: white;
+}
+
+.fa-github {
+	color: white;
 }
 
 @media (max-width: 50em) {

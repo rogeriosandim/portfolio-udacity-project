@@ -8,7 +8,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
 	<div class="col-xs-12">
@@ -16,7 +18,7 @@
 			<div class="col-xs-12 header">
 				<div class="row">
 					<div class="col-sm-2 col-xs-12 logo">
-						<img src="img/udacity.svg" alt="Udacity Logo" width="100" height="100">
+						<img class="logo-image" src="img/udacity.svg" alt="Udacity Logo" width="100" height="100">
 					</div>
 					<div class="col-sm-10 col-xs-12 info">
 						<h1>Rogério J. Sandim</h1>
@@ -27,47 +29,49 @@
 		</header>
 		<div class="row">
 			<div class="col-xs-12">
-				<main class="row">
+				<main class="row main">
 					<div class="col-xs-12">
-						<img src="img/main-image.jpg" alt="Code Image">
+						<img class="large-image" src="img/main-image.jpg" alt="Code Image">
 					</div>
 				</main>
-				<!--FOOTER -->
-				<footer>
+				<section class="featured-work">
 					<div class="row">
 						<div class="col-xs-12">
-							<h2>Featured Work</h2>
+							<h2 class="description">Featured Work</h2>
 						</div>					
 					</div>
 					<div class="row">
-						<article class="col-xs-12 col-sm-4">
-						<!--Fazer referencia github -->
+						<article class="col-xs-12 col-sm-4 image-box">
 							<a href="https://github.com/rogeriosandim/mockup-udacity-project">
-								<img src="img/mockup-project.png" alt="My first Mockup Project at Udacity">
-								<h3>Mockup</h3>
+								<img class="small-image" src="img/mockup-project.png" alt="My first Mockup Project at Udacity">
+								<h3 class="project-title">Mockup</h3>
 								<p>https://github.com/rogeriosandim/mockup-udacity-project</p>
 							</a>	
 						</article>
-						<article class="col-xs-12 col-sm-4">
-						<!--Fazer referencia github -->
+						<article class="col-xs-12 col-sm-4 image-box">
 							<a href="https://github.com/rogeriosandim/card-udacity-project">
-								<img src="img/trading-card-project.png" alt="My Trading Card Project at Udacity">
-								<h3>Trading Card</h3>
+								<img class="small-image" src="img/trading-card-project.png" alt="My Trading Card Project at Udacity">
+								<h3 class="project-title">Trading Card</h3>
 								<p>https://github.com/rogeriosandim/card-udacity-project</p>
 							</a>	
 						</article>
-						<article class="col-xs-12 col-sm-4">
-						<!--Fazer referencia github -->
+						<article class="col-xs-12 col-sm-4 image-box">
 							<a href="https://github.com/rogeriosandim/portfolio-udacity-project">
-								<img src="img/portfolio-project.png" alt="My Portfolio Project at Udacity">
-								<h3>Portfolio</h3>
+								<img class="small-image" src="img/portfolio-project.png" alt="My Portfolio Project at Udacity">
+								<h3 class="project-title">Portfolio</h3>
 								<p>https://github.com/rogeriosandim/portfolio-udacity-project</p>
 							</a>	
 						</article>							
 					</div>
-				</footer>
+				</section>
 			</div>
 		</div>
 	</div>
+	<footer class="footer">
+		© 2018 - All rights reserved. Site designed by: 
+		<a href="https://github.com/rogeriosandim">
+			<i class="fab fa-github"></i>
+		</a>
+ </footer>
 </body>
 </html>
